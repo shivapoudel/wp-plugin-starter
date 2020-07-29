@@ -1,0 +1,46 @@
+{
+	"name": "shivapoudel/wp-plugin-starter",
+	"description": "Just another WordPress plugin starter.",
+	"homepage": "https://shivapoudel.com",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"composer/installers": "1.9.0"
+	},
+	"require-dev": {
+		"wp-cli/i18n-command": "2.2.5",
+		"wp-coding-standards/wpcs": "2.3.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "0.7.0",
+		"phpcompatibility/phpcompatibility-wp": "2.1.0",
+		"sirbrillig/phpcs-variable-analysis": "2.8.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"WP_Plugin_Starter\\": "src/"
+		}
+	},
+	"scripts": {
+		"phpcs": [
+			"phpcs"
+		],
+		"phpcbf": [
+			"phpcbf"
+		],
+		"makepot-audit": [
+			"wp i18n make-pot . --slug=wp-plugin-starter"
+		],
+		"makepot": [
+			"@makepot-audit --skip-audit"
+		]
+	},
+	"extra": {
+		"scripts-description": {
+			"phpcs": "Analyze code against the WordPress coding standard with PHP_CodeSniffer",
+			"phpcbf": "Fix coding standards warnings/errors automattically with PHP Code Beautifier",
+			"makepot-audit": "Generate langauges/wp-plugin-starter.pot file and run audit",
+			"makepot": "Generate langauges/wp-plugin-starter.pot file"
+		}
+	}
+}

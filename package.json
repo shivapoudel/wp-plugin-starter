@@ -1,0 +1,21 @@
+{
+	"name": "wp-plugin-starter",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Just another WordPress plugin starter.",
+	"author": "Shiva Poudel",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"plugin-starter"
+	],
+	"homepage": "https://github.com/shivapoudel/wp-plugin-starter#readme",
+	"repository": "git+https://github.com/shivapoudel/wp-plugin-starter.git",
+	"bugs": {
+		"url": "https://github.com/shivapoudel/wp-plugin-starter/issues"
+	},
+	"engines": {
+		"node": ">=10.0.0",
+		"npm": ">=6.9.0"
+	}
+}
