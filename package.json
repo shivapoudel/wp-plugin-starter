@@ -18,6 +18,10 @@
 		"node": ">=10.0.0",
 		"npm": ">=6.9.0"
 	},
+	"dependencies": {
+		"@wordpress/element": "2.16.0",
+		"@wordpress/i18n": "3.14.0"
+	},
 	"devDependencies": {
 		"@wordpress/browserslist-config": "2.7.0",
 		"@wordpress/eslint-plugin": "7.1.0",

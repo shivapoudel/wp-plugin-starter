@@ -1,4 +1,16 @@
-// Import SCSS entry file so that webpack picks up changes
-import './index.scss';
+/**
+ * External dependencies
+ */
+import { render } from '@wordpress/element';
 
-// console.log( 'Hello world!' );
+/**
+ * Internal dependencies
+ */
+import './index.scss';
+import App from './app';
+
+const appRoot = document.getElementById( 'root' );
+
+if ( appRoot ) {
+	render( <App />, appRoot );
+}

@@ -19,6 +19,11 @@ use WP_Plugin_Starter\Plugin;
 // Exit if access directly.
 defined( 'ABSPATH' ) || exit;
 
+// Plugin root file.
+if ( ! defined( 'WPS_PLUGIN_FILE' ) ) {
+	define( 'WPS_PLUGIN_FILE', __FILE__ );
+}
+
 /**
  * Autoload packages.
  *

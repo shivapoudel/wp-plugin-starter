@@ -1,1 +1,7 @@
-// Your css will reside here...
+.wp-plugin-starter-app {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 48px);
+}
