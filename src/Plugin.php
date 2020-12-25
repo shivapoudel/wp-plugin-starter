@@ -69,7 +69,7 @@ class Plugin {
 	 * Registers settings page under Settings.
 	 */
 	public function admin_menu() {
-		add_options_page( esc_html__( 'WP Plugin Starter settings', 'wp-plugin-starter' ), esc_html__( 'Settings', 'wp-plugin-starter' ), 'manage_options', 'wp-plugin-settings', array( $this, 'page_wrapper' ) );
+		add_options_page( esc_html__( 'WP Plugin Starter settings', 'wp-plugin-starter' ), esc_html__( 'Settings', 'wp-plugin-starter' ), 'manage_options', 'wp-plugin-starter-settings', array( $this, 'page_wrapper' ) );
 	}
 
 	/**
@@ -131,7 +131,7 @@ class Plugin {
 
 		if (
 			isset( $screen->id )
-			&& 'settings_page_wp-plugin-settings' === $screen->id
+			&& 'settings_page_wp-plugin-starter-settings' === $screen->id
 		) {
 			wp_enqueue_style( 'wp-plugin-starter-settings' );
 			wp_enqueue_script( 'wp-plugin-starter-settings' );
@@ -147,7 +147,7 @@ class Plugin {
 	 */
 	public function plugin_action_links( $links ) {
 		$action_links = array(
-			'settings' => '<a href="' . admin_url( 'options-general.php?page=wp-plugin-settings' ) . '" aria-label="' . esc_attr__( 'View Plugin settings', 'wp-plugin-starter' ) . '">' . esc_html__( 'Settings', 'wp-plugin-starter' ) . '</a>',
+			'settings' => '<a href="' . admin_url( 'options-general.php?page=wp-plugin-starter-settings' ) . '" aria-label="' . esc_attr__( 'View Plugin settings', 'wp-plugin-starter' ) . '">' . esc_html__( 'Settings', 'wp-plugin-starter' ) . '</a>',
 		);
 
 		return array_merge( $action_links, $links );
