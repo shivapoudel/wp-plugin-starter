@@ -129,6 +129,9 @@ class Plugin {
 			filemtime( plugin_dir_path( WPS_PLUGIN_FILE ) . 'build/index.css' )
 		);
 
+		// Add RTL support for admin styles.
+		wp_style_add_data( 'wp-plugin-starter-settings', 'rtl', 'replace' );
+
 		if (
 			isset( $screen->id )
 			&& 'settings_page_wp-plugin-starter-settings' === $screen->id

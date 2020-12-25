@@ -1,6 +1,6 @@
 === WP Plugin Starter ===
 Contributors: shivapoudel
-Tags: custom-plugin, wp-scripts-ready, plugin-starter, translation-ready
+Tags: custom-plugin, wp-scripts-ready, plugin-starter, translation-ready, rtl-support
 Requires at least: 5.3
 Tested up to: 5.6
 Requires PHP: 5.6.20

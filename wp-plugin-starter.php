@@ -19,6 +19,11 @@ use WP_Plugin_Starter\Plugin;
 // Exit if access directly.
 defined( 'ABSPATH' ) || exit;
 
+// Plugin version.
+if ( ! defined( 'WPS_VERSION' ) ) {
+	define( 'WPS_VERSION', '1.0.0' );
+}
+
 // Plugin root file.
 if ( ! defined( 'WPS_PLUGIN_FILE' ) ) {
 	define( 'WPS_PLUGIN_FILE', __FILE__ );
