@@ -8,8 +8,8 @@
  * Author URI: https://shivapoudel.com
  * Text Domain: wp-plugin-starter
  * Domain Path: /languages/
- * Requires at least: 5.4
- * Requires PHP: 5.6
+ * Requires at least: 5.3
+ * Requires PHP: 5.6.20
  *
  * @package WP_Plugin_Starter
  */

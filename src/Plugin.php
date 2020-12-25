@@ -97,7 +97,7 @@ class Plugin {
 							 *
 							 * @param string $message The message being displayed.
 							 */
-							echo wp_kses_post( apply_filters( 'wp_plugin_starter_settings_no_javascript_message', $message ) );
+							echo wp_kses_post( apply_filters( 'plugin_starter_settings_no_javascript_message', $message ) );
 						?>
 					</p>
 			</div>
