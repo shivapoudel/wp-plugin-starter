@@ -14,7 +14,7 @@ WP Plugin Starter requires the following dependencies:
 
 ### Quick Start
 
-At the very beginning, [Creating a repository from a template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) and checkout the code to your `wp-content/plugins` directory. After that you'll need to do a four-step find and replace on the name in all the templates.
+Click "Use this template" at the top of this page, or click [here](https://github.com/shivapoudel/wp-plugin-starter/generate) to create your repo and clone locally to your `wp-content/plugins` directory. After that you'll need to do a four-step find and replace on the name in all the templates.
 
 1. Search for `WP Plugin Starter` to capture the plugin name and replace with: `Plugin Name`.
 2. Search for `WP_Plugin_Starter` to capture the plugin namespace and replace with: `Plugin_Name`.
