@@ -28,7 +28,7 @@
 		"@wordpress/prettier-config": "0.4.0",
 		"@wordpress/scripts": "12.6.0",
 		"husky": "4.3.6",
-		"lint-staged": "10.5.3",
+		"lint-staged": "10.5.4",
 		"optimize-css-assets-webpack-plugin": "5.0.4",
 		"prettier": "npm:wp-prettier@2.0.5",
 		"rtlcss-webpack-plugin": "4.0.4"
