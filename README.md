@@ -40,7 +40,7 @@ WP Plugin Starter comes packed with CLI commands tailored for WordPress plugin d
 
 - `npm run build` - builds the code for production.
 - `npm run start` - starts the build for development.
-- `npm run format:js` – formats JavaScript files in the entire project’s directories.
+- `npm run format` - formats files in the entire project’s directories.
 - `npm run lint:js` – lints JavaScript files in the entire project’s directories.
 - `npm run lint:css` – lints CSS and SCSS files in the entire project’s directories.
 - `npm run lint:php` – lints PHP files in the entire project’s directories.
