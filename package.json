@@ -26,7 +26,7 @@
 		"@wordpress/browserslist-config": "3.0.3",
 		"@wordpress/eslint-plugin": "9.0.4",
 		"@wordpress/prettier-config": "1.0.3",
-		"@wordpress/scripts": "15.0.0",
+		"@wordpress/scripts": "22.5.0",
 		"husky": "6.0.0",
 		"lint-staged": "10.5.4",
 		"optimize-css-assets-webpack-plugin": "5.0.4",
