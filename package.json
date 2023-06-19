@@ -27,7 +27,7 @@
 		"@wordpress/eslint-plugin": "9.0.4",
 		"@wordpress/prettier-config": "1.0.3",
 		"@wordpress/scripts": "15.0.0",
-		"husky": "6.0.0",
+		"husky": "8.0.3",
 		"lint-staged": "10.5.4",
 		"optimize-css-assets-webpack-plugin": "5.0.4",
 		"prettier": "npm:wp-prettier@2.0.5",
