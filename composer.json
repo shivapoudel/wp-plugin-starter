@@ -14,7 +14,7 @@
 		"wp-coding-standards/wpcs": "2.3.0",
 		"dealerdirect/phpcodesniffer-composer-installer": "0.7.1",
 		"phpcompatibility/phpcompatibility-wp": "2.1.1",
-		"sirbrillig/phpcs-variable-analysis": "2.11.0"
+		"sirbrillig/phpcs-variable-analysis": "2.11.17"
 	},
 	"autoload": {
 		"psr-4": {
