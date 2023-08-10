@@ -19,14 +19,14 @@
 		"npm": ">=6.9.0"
 	},
 	"dependencies": {
-		"@wordpress/element": "2.20.2",
-		"@wordpress/i18n": "3.19.2"
+		"@wordpress/element": "5.16.0",
+		"@wordpress/i18n": "4.39.0"
 	},
 	"devDependencies": {
-		"@wordpress/browserslist-config": "3.0.3",
-		"@wordpress/eslint-plugin": "9.0.4",
-		"@wordpress/prettier-config": "1.0.3",
-		"@wordpress/scripts": "15.0.0",
+		"@wordpress/browserslist-config": "5.22.0",
+		"@wordpress/eslint-plugin": "14.12.0",
+		"@wordpress/prettier-config": "2.22.0",
+		"@wordpress/scripts": "26.10.0",
 		"husky": "6.0.0",
 		"lint-staged": "10.5.4",
 		"optimize-css-assets-webpack-plugin": "5.0.4",
